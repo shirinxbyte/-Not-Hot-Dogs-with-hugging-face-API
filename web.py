@@ -6,7 +6,7 @@ import json
 import os
 from dotenv import load_dotenv
 
-
+ 
 load_dotenv()  
 API_URL = os.getenv("hugging_face_api")
 headers = {'Authorization': f'Bearer {os.getenv("HUGGING_FACE_API_KEY")}'}
