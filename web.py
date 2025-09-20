@@ -1,7 +1,7 @@
  #web.py 
 
 from flask import Flask, render_template, request, jsonify
-import requests
+import requests 
 import json
 import os
 from dotenv import load_dotenv
